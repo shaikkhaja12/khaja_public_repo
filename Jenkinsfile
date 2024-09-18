@@ -10,7 +10,7 @@ pipeline{
           sh  '-Dsonar.projectName='sonardemo'',
           sh  '-Dsonar.host.url=http://43.205.243.75:9000',
           sh '-Dsonar.token=sqp_ce20fed25983daa1bff9c9c306de0a4075d08837',
-           echo "sonar scan successfully completed"
+          echo "sonar scan successfully completed"
         }
         }
       }
